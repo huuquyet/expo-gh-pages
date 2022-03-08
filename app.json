@@ -1,24 +1,25 @@
 {
   "expo": {
-    "name": "34",
-    "slug": "34",
+    "name": "expo-gh-pages",
+    "slug": "expo-gh-pages",
+    "sdkVersion": "44.0.6",
     "privacy": "public",
-    "sdkVersion": "34.0.0",
-    "platforms": ["ios", "android", "web"],
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
+    "primaryColor": "#ffffff",
+    "platforms": ["ios", "android", "web"],
     "icon": "./assets/images/icon.png",
     "splash": {
       "image": "./assets/images/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ffffff",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true
-    }
+    "assetBundlePatterns": ["**/*"]
   }
 }

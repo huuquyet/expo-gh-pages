@@ -1,21 +1,16 @@
-import React from 'react';
-import NavigationTestUtils from 'react-navigation/NavigationTestUtils';
-import renderer from 'react-test-renderer';
+import React from "react";
+import renderer from "react-test-renderer";
 
-import App from '../App';
+import App from "../App";
 
-jest.mock('expo', () => ({
-  AppLoading: 'AppLoading',
+jest.mock("expo", () => ({
+  AppLoading: "AppLoading",
 }));
 
-jest.mock('../navigation/AppNavigator', () => 'AppNavigator');
+jest.mock("../navigation/AppNavigator", () => "AppNavigator");
 
-describe('App', () => {
+describe("App", () => {
   jest.useFakeTimers();
-
-  beforeEach(() => {
-    NavigationTestUtils.resetInternalState();
-  });
 
   it(`renders the loading screen`, () => {
     const tree = renderer.create(<App />).toJSON();
