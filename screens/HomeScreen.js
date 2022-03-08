@@ -73,7 +73,7 @@ export default function HomeScreen() {
   );
 }
 
-function DevelopmentModeNotice() {
+const DevelopmentModeNotice = () => {
   if (__DEV__) {
     const learnMoreButton = (
       <Text onPress={handleLearnMorePress} style={styles.helpLinkText}>
@@ -96,16 +96,16 @@ function DevelopmentModeNotice() {
   }
 }
 
-function handleLearnMorePress() {
-  WebBrowser.openBrowserAsync(
-    "https://docs.expo.io/versions/latest/workflow/development-mode/"
-  ).then(() => {});
+const handleLearnMorePress = async () => {
+  await WebBrowser.openBrowserAsync(
+      "https://docs.expo.io/versions/latest/workflow/development-mode/"
+  );
 }
 
-function handleHelpPress() {
-  WebBrowser.openBrowserAsync(
+const handleHelpPress = async () => {
+  await WebBrowser.openBrowserAsync(
     "https://docs.expo.io/versions/latest/workflow/up-and-running/#cant-see-your-changes"
-  ).then(() => {});
+  );
 }
 
 const FacebookButton = () => {
