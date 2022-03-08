@@ -1,7 +1,7 @@
 {
   "files": {
-    "app.js": "/expo-gh-pages/static/js/app.6be08287.chunk.js",
-    "app.js.map": "/expo-gh-pages/static/js/app.6be08287.chunk.js.map",
+    "app.js": "/expo-gh-pages/static/js/app.309d980d.chunk.js",
+    "app.js.map": "/expo-gh-pages/static/js/app.309d980d.chunk.js.map",
     "runtime~app.js": "/expo-gh-pages/static/js/runtime~app.57d3d678.js",
     "runtime~app.js.map": "/expo-gh-pages/static/js/runtime~app.57d3d678.js.map",
     "static/js/2.8fe5a83a.chunk.js": "/expo-gh-pages/static/js/2.8fe5a83a.chunk.js",
@@ -33,6 +33,6 @@
   "entrypoints": [
     "static/js/runtime~app.57d3d678.js",
     "static/js/2.8fe5a83a.chunk.js",
-    "static/js/app.6be08287.chunk.js"
+    "static/js/app.309d980d.chunk.js"
   ]
 }
